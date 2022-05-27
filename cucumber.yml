@@ -1,0 +1,5 @@
+default: -p html -p bdd -p json -p chrome
+html: --format html --out=Data/Reports/Relatorio.html
+json: --format json --out=Data/Reports/report.json
+bdd: --format pretty
+chrome: BROWSER=chrome
